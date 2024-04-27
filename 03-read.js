@@ -1,5 +1,7 @@
 // Read - 
 
+// $.. -> operators
+
 // Fetch all documents
 db.inventory.find({}); // ----> SELECT * FROM inventory
 
