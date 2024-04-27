@@ -1,3 +1,5 @@
+// C - Create [Inserting documents/rows in the inventory table]
+
 // Inserting one document/row to the inventory table/collection
 db.inventory.insertOne(
     { item: "canvas", qty: 100, tags: ["cotton"], size: { h: 28, w: 35.5, uom: "cm" } }
